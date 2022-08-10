@@ -1448,6 +1448,21 @@ aside:hover{
         max-width: 900px;
     }
 
+    
+    .con_flex{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 10px;
+    }
+
+    .grid_a_text{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
     .h_recientes{
         grid-template-areas: "hr_a hr_a hr_a hr_a"
                              "title title title ."
@@ -1486,6 +1501,19 @@ aside:hover{
 
 @media screen and (min-width: 1200px){
 
+    body{
+        grid-template-areas: "header header header header header header"
+                             "imagen_s imagen_s imagen_s imagen_s imagen_s imagen_s"
+                              "slider slider slider slider slider slider"
+                              "section section section section section section"
+                              "main main main main aside aside" 
+                              "h_dest h_dest h_dest h_dest aside aside"
+                              ". . . . aside aside"
+                              "quie_s quie_s quie_s quie_s quie_s quie_s"
+                              "col col col col col col"
+                              "footer footer footer footer footer footer";
+    }
+
     .h_recientes{
         grid-template-columns: repeat(6, 1fr);
         grid-template-areas: "hr_a hr_a hr_a hr_a hr_a hr_a"
@@ -1494,7 +1522,7 @@ aside:hover{
     }
 
     .grid_d_img > img{
-        height: 190px;
+        height: 190px; 
     }
 
     .grid_d_text{
