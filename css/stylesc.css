@@ -309,7 +309,7 @@ header{
     justify-content: baseline;
     background-color: rgb(22, 21, 21);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.562);
-    transition: background-color .3s;
+    transition: background-color .7s ease;
 }
 
 .slider_sections_box > a >img{
@@ -507,7 +507,7 @@ aside:hover{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.562);
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
-    transition: all .5s;
+    transition: all .5s ease-in-out;
 }
 
 .recomendadas_cont_img > img{
@@ -674,7 +674,7 @@ aside:hover{
     align-items: center;
     border: 2px solid rgba(255, 255, 255, 0.164);
     box-shadow: 2px 2px 10px rgba(255, 254, 254, 0.2);
-    transition: all .5s;
+    transition: background-color 1s linear;
  }
 
  .text_main_section:hover{
@@ -912,7 +912,7 @@ aside:hover{
     justify-content: center;
     border: 2px solid rgba(255, 255, 255, 0.164);
     box-shadow: 2px 2px 10px rgba(255, 254, 254, 0.2);
-    transition: all .5s;
+    transition: background-color 1s linear;
  }
 
  .text_qs_section:hover{
@@ -1295,6 +1295,11 @@ aside:hover{
                               "quie_s quie_s quie_s quie_s quie_s quie_s"
                               "col col col col col col"
                               "footer footer footer footer footer footer";
+    }
+
+    .title{
+        width: fit-content;
+        padding: 30px;
     }
 
 
