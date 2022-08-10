@@ -2038,10 +2038,14 @@ li > .estilos_links:hover{
 
 /* estilos al formulario de registro */
 
+.body_secciones{
+    background-color: #FFF;
+}
 
 .main_registro{
     background-color: #FFF;
     height: 100vh;
+    margin-bottom: 130px;
 }
 
 .reg_pag{
