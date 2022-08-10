@@ -20,6 +20,7 @@ body{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "header header header header header header"
+                         "imagen_s imagen_s imagen_s imagen_s imagen_s imagen_s"
                          "slider slider slider slider slider slider"
                          "section section section section section section"
                          "aside aside aside aside aside aside" 
@@ -32,6 +33,10 @@ body{
 
 header{
     grid-area: header;
+}
+
+.slider{
+    grid-area: imagen_s;
 }
 
 .slider_sections{
@@ -1205,6 +1210,7 @@ aside:hover{
 
     body{
         grid-template-areas: "header header header header header header"
+                             "imagen_s imagen_s imagen_s imagen_s imagen_s imagen_s"
                               "slider slider slider slider slider slider"
                               "section section section section section section"
                               "main main main aside aside aside" 
@@ -1342,6 +1348,7 @@ aside:hover{
 
     body{
         grid-template-areas: "header header header header header header"
+                             "imagen_s imagen_s imagen_s imagen_s imagen_s imagen_s"
                               "slider slider slider slider slider slider"
                               "section section section section section section"
                               "main main main main aside aside" 
